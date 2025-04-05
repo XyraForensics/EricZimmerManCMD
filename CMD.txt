@@ -1,0 +1,93 @@
+==================================
+AmcacheParser
+==================================
+
+AmcacheParser.exe -f "C:\Windows\appcompat\Programs\Amcache.hve" --csv .
+
+==================================
+AppCompatCacheParser
+==================================
+
+AppCompatCacheParser.exe -f "C:\Windows\System32\config\SOFTWARE" --csv .
+
+==================================
+JLECmd (Jump List Explorer)
+==================================
+
+JLECmd.exe -f "C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations" --csv .
+
+==================================
+  JumpList Explorer
+==================================
+
+JumpListExplorer.exe -f "C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent" --csv .
+
+==================================
+LECmd
+==================================
+
+LECmd.exe -f "C:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations" --csv .
+
+==================================
+MFTECmd (Master File Table Explorer)
+==================================
+
+MFTECmd.exe -f "C:\$MFT" --csv .
+
+==================================
+ MFTExplorer
+==================================
+MFTExplorer.exe -f "C:\$MFT" --csv .
+
+==================================
+PECmd (Portable Executable Command)
+==================================
+
+PECmd.exe -f "C:\Path\To\file.exe" --csv .
+
+==================================
+ RBCmd (Recent-Bits Cache Parser)
+==================================
+
+RBCmd.exe -f "C:\Users\*\AppData\Local\Microsoft\Windows\Recent\Recent-Bits" --csv .
+
+==================================
+RecentFileCacheParser
+==================================
+
+RecentFileCacheParser.exe -f "C:\Users\*\AppData\Local\Microsoft\Windows\Recent\FileCache" --csv .
+
+==================================
+RECmd
+==================================
+
+RECmd.exe -f "C:\Windows\System32\config\SOFTWARE" --csv .
+
+==================================
+ SDB Explorer
+==================================
+SDBExplorer.exe -f "C:\Path\To\file.sdb" --csv .
+
+==================================
+Registry SBECmd
+==================================
+
+RegistrySBECmd.exe -f "C:\Windows\System32\config\SOFTWARE" --csv .
+
+==================================
+ Registry ShellBags Explorer
+==================================
+
+RegistryShellBagsExplorer.exe -f "C:\Windows\System32\config\SOFTWARE" --csv .
+
+==================================
+ Registry SrumECmd
+==================================
+
+RegistrySrumECmd.exe -f "C:\Windows\System32\srum\SRUDB.dat" --csv .
+
+==================================
+Registry Timeline Explorer
+==================================
+
+RegistryTimelineExplorer.exe -f "C:\Windows\System32\config\SOFTWARE" --csv .
